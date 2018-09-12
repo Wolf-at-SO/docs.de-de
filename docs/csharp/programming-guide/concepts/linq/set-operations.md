@@ -1,5 +1,5 @@
 ---
-title: Mengenvorgänge (C#)
+title: Mengenoperationen (C#)
 ms.date: 07/20/2015
 ms.assetid: 7c589367-ef8f-4161-9050-642c47e6bf63
 ms.openlocfilehash: c91ec399e7c3bccd4ef937d5f7f3f871f86f00be
@@ -9,7 +9,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 09/04/2018
 ms.locfileid: "43530058"
 ---
-# <a name="set-operations-c"></a>Mengenvorgänge (C#)
+# <a name="set-operations-c"></a>Mengenoperationen (C#)
 Mengenvorgänge in LINQ sind Abfrageoperationen, die ein Satz von Ergebnissen erzeugen, der auf der Existenz oder Abwesenheit äquivalenter Elemente in derselben oder in einer getrennten Auflistung (oder einem Satz) basiert.  
   
  Die Methoden des Standardabfrageoperators, die Mengenoperationen ausführen, sind im folgenden Abschnitt aufgeführt.  
@@ -23,7 +23,7 @@ Mengenvorgänge in LINQ sind Abfrageoperationen, die ein Satz von Ergebnissen er
 |Überschneiden|Gibt die Schnittmenge zurück, d.h. die Elemente, die in beiden Auflistungen angezeigt werden|Nicht zutreffend.|<xref:System.Linq.Enumerable.Intersect%2A?displayProperty=nameWithType><br /><br /> <xref:System.Linq.Queryable.Intersect%2A?displayProperty=nameWithType>|  
 |Union|Gibt die Vereinigungsmenge zurück, d.h. eindeutige Elemente, die in einer der beiden Auflistungen angezeigt werden|Nicht zutreffend.|<xref:System.Linq.Enumerable.Union%2A?displayProperty=nameWithType><br /><br /> <xref:System.Linq.Queryable.Union%2A?displayProperty=nameWithType>|  
   
-## <a name="comparison-of-set-operations"></a>Vergleich von Mengenvorgängen  
+## <a name="comparison-of-set-operations"></a>Vergleich von Mengenoperationen  
   
 ### <a name="distinct"></a>Distinct  
  Die folgende Abbildung veranschaulicht das Verhalten der Methode <xref:System.Linq.Enumerable.Distinct%2A?displayProperty=nameWithType> in einer Zeichensequenz. Die zurückgegebene Sequenz enthält die eindeutigen Elemente aus der Eingabesequenz.  
